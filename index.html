@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loops</title>
+</head>
+<h1>WE will be studying loops and functions</h1>
+<body>
+    <script>
+//         Write a program using a for loop and print the numbers from 200 till 0 with the
+// // decrement of 3.
+for(let i=200; i>=0; i-=3){
+    console.log(i)
+}
+// Write a program to display your name 10 times using a while loop.
+let a=0;
+while(a<=9){
+    console.log("Mariam");
+    a++
+}
+// Write a program to print a sum of even numbers in between 1-10 using a while loop.
+let i = 1;
+n = 0;
+while(i<=10){
+    if(i%2==0){
+        n= n+i;
+    }
+   i++;
+}
+console.log(n);
+
+
+
+//    Write a program to display a number between 1 to 5 using the do while loop.
+
+let d=1;
+let e=5;
+do{
+    console.log(d)
+    d++
+}while(d<=e);
+// Write a function to print the sum of two numbers.
+function add(a,b){
+    console.log(a+b)
+}
+add(22,22)
+
+
+    
+// Invoke a function and pass values to the ‘width’ &amp; ‘height’ parameters inside the
+// parenthesis store the return value in a variable ‘Area’ and print it in the console.
+
+function bin(width,height){
+    let area = width+height
+    return area
+}
+console.log(bin(30,40));
+
+
+
+
+
+
+    </script>
+</body>
+</html>
